@@ -60,4 +60,10 @@ Python科学计算的基础包，
 - `scipy.stats`:标准连续和离散概率分布、各种统计检验方法，以及更好的描述统计法
 - `scipy.weave`:利用内联c++代码加速数组计算的工具
 
- 
+## 社区和研讨会
+
+- `pydata`：一个Google Group邮件列表，其中的问题都是Python数据分析和pandas方面的；
+- `pystatsmodels`：针对与statsmodels和pandas相关的问题
+- `numpy-discussion`：针对与NumPy相关的问题
+- `scipy-user`：针对SciPy和Python科学计算相关的问题
+- `PyCon`和`EuroPython`：美国和欧洲最主要的Python研讨会。
