@@ -8,40 +8,40 @@ tags: [日记]
 
 ## 敦刻尔克（第1本）
 
-![敦刻尔克](敦刻尔克.png)
+![dunkeerke](dunkeerke.png)
 
 ## 间谍课：万无一失的杀手（第2本）
 
-![间谍课万无一失的杀手](间谍课万无一失的杀手.png)
+![wanwuyishideshashou](wanwuyishideshashou.png)
 
 ## 白夜行（第3本）
 
-![白夜行](白夜行.png)
+![baiyexing](baiyexing.png)
 
 ## 雪落香杉树（第4本）
 
-![雪落香杉树](雪落香杉树.png)
+![xueluoxiangshanshu](xueluoxiangshanshu.png)
 
 ## 摆渡人2（第5本）
 
-![摆渡人2](摆渡人2.png)
+![baiduren2](baiduren2.png)
 
 ## 沉默的大多数（第6本）
 
-![沉默的大多数](沉默的大多数.png)
+![chenmodedaduoshu](chenmodedaduoshu.png)
 
 ## 高难度对话（第7本书）
 
 
-![高难度对话](高难度对话.png)
+![gaonanduduihua](gaonanduduihua.png)
 
 ## 新名字的故事（第8本书）
 
-![新名字的故事](新名字的故事.png)
+![xinmingzidegushi](xinmingzidegushi.png)
 
 ## 我的天才女友（第9本书）（在读）
 
-![我的天才女友](我的天才女友.png)
+![wodetiancainvyou](wodetiancainvyou.png)
 
 # 2018年，我看了这些电影
 
