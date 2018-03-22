@@ -1,10 +1,10 @@
 ---
-title: mysql-importdata-error
+title: mysql导入数据出现MySQL server has gone away的解决方法
 date: 2018-03-22 20:48:53
 tags: [数据库]
 ---
 
-# mysql导入大批量数据出现MySQL server has gone away的解决方法
+## 问题描述
 
 当使用mysql客户端或者在linux命令行中导入数据时，都提示`MySQL server has gone away`的错误。
 
@@ -14,7 +14,7 @@ tags: [数据库]
 
   ERROR 2006 (HY000): MySQL server has gone away
 
-# 解决办法
+## 解决办法
 
 官方解释:适当增大`max_allowed_packet`参数可以使client端到server端传递大数据时，系统能够分配更多的扩展内存来处理。
 
