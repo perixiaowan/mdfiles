@@ -1,6 +1,6 @@
 ---
 title: Vim常用快捷键
-date: 2018-03-22 17:31:05
+date: 2018-03-26 17:31:05
 author: liuxiaowan
 tags: [Linux]
 ---
