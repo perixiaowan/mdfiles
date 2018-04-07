@@ -98,11 +98,17 @@ tags: [日记]
 
 ## 12.《梦幻花》（第12本书）
 
+![menghuanhua](reading-books-2018/menghuanhua.jpg)
+
 一种能使人产生幻觉并成瘾的黄色牵牛花种子，被政府秘密隔离，从而成为人间不存在的禁断之花。看似毫无关联哪怕间隔几十年的突发事件，依然有着千丝万缕的联系。而由神秘之花引发的一系列命案，一段段不为人知的背后家族的使命感逐渐浮出水面。包括：爱情，亲戚，友情。
 
 ## 13.《大黄蜂奇航》（第13本书）
 
+![dahuangfengqihang](reading-books-2018/dahuangfengqihang.jpg)
+
 ## 14.《彼得林奇教你理财》（第14本书）
+
+![bidelinqijiaonilicai](reading-books-2018/bidelinqijiaonilicai.jpg)
 
 
 # 2018年，我看了这些电影
