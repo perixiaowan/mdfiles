@@ -1,6 +1,6 @@
 ---
 title: 2018年，我读了哪些书？看了哪些电影？
-date: 2018-04-07 22:31:05
+date: 2018-05-20 22:31:05
 author: liuxiaowan
 tags: [日记]
 ---
@@ -9,8 +9,6 @@ tags: [日记]
 ## 1.《敦刻尔克》（第1本）
 
 ![dunkeerke](reading-books-2018/dunkeerke.png)
-
-### 读后感想
 
 只有读了原著，才有可能在脑海中将历史真实事件进行最大程度的还原。
 
@@ -116,6 +114,21 @@ tags: [日记]
 
 去做感兴趣的事情，并且倾其所有地为之付出，钱自然而然就会有了。
 
+## 15. 《华尔街之狼》（第15本书）
+
+![huaerjiezhilang](reading-books-2018/huaerjiezhilang.jpg)
+
+## 16. 《一个叫欧维的男人决定去死》（第16本书）
+
+![yigejiaoouweidenanren](reading-books-2018/yigejiaoouweidenanren.jpg)
+
+## 17. 《左手巴菲特，右手彼得林奇》（第17本书）
+
+![zuoshoubafeite](reading-books-2018/zuoshoubafeite.jpg)
+
+## 18. 《指数基金投资指南》（第18本书）（第18本书）
+
+![zhishujijintouzizhinan](reading-books-2018/zhishujijintouzizhinan.jpg)
 
 # 2018年，我看了这些电影
 
