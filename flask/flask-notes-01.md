@@ -284,6 +284,7 @@ def upload_file():
         f.save('/var/www/uploads/' + secure_filename(f.filename))
 ```
 
+# 10 上传进度条
 
 #  调试模式
 
