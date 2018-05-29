@@ -286,6 +286,123 @@ def upload_file():
 
 # 10 上传进度条
 
+# 11 Cookies
+
+- 通过 cookies 属性来访问 Cookies，用响应对象的 set_cookie 方法来设置 Cookies。
+- 请求对象的 cookies 属性是一个内容为客户端提交的所有 Cookies 的字典.
+
+### 读取cookies
+
+    username = request.cookies.get('username')
+
+### 存储cookies
+
+```
+from flask import make_response
+
+@app.route('/')
+def index():
+    resp = make_response(render_template(...))
+    resp.set_cookie('username', 'the username')
+    return resp
+
+```
+
+- Cookies 是设置在响应对象上的;
+- 可以使用 make_response() 函数然后再进行修改。
+
+# 12 会话
+
+-  session 对象:允许你在不同请求间存储特定用户的信息。在 Cookies 的基础上实现的，并且对 Cookies 进行密钥签名。
+
+# 13 重定向和错误
+
+ redirect() 函数把用户重定向到其它地方。放弃请求并返回错误代码，用 abort() 函数。
+
+ ```
+ from flask import abort
+ @app.route('/login')
+ def login():
+    # 401 意味着禁止访问
+    abort(401)
+    this_is_never_executed()
+ ```
+
+ ### 定制错误页面
+
+ - 使用 errorhandler() 装饰器
+
+ ```
+  from flask import render_template
+
+  @app.errorhandler(404)
+  def page_not_found(error):
+      return render_template('page_not_found.html'), 404
+
+ ```
+
+ # 14 关于响应
+
+ Flask 把返回值转换为响应对象的逻辑
+
+- 如果返回的是一个合法的响应对象，它会从视图直接返回。
+- 如果返回的是一个字符串，响应对象会用字符串数据和默认参数创建。
+- 如果返回的是一个元组，且元组中的元素可以提供额外的信息。这样的元组必须是` (response, status, headers) `的形式，且至少包含一个元素。 status 值会覆盖状态代码， headers 可以是一个列表或字典，作为额外的消息标头值。
+- 如果上述条件均不满足， Flask 会假设返回值是一个合法的 WSGI 应用程序，并转换为一个请求对象。
+
+### 修改响应对象
+
+- 把返回值表达式传递给 make_response() ；
+- 获取结果对象并修改；
+- 然后再返回它
+
+
+```
+@app.errorhandler(404)
+def not_found(error):
+    resp = make_response(render_template('error.html'), 404)
+    resp.headers['X-Something'] = 'A value'
+    return resp
+```
+
+# 15 消息闪现
+
+- 消息闪现系统通常会在请求结束时记录信息，并在下一个（且仅在下一个）请求中访问记录的信息。展现这些消息通常结合要模板布局。
+- 使用 flash() 方法可以闪现一条消息。
+- 要操作消息本身，可以使用 get_flashed_messages() 函数，且在模板中也可以使用。
+
+# 16 日志记录
+
+```
+import logging
+logging.basicConfig(filename='example.log',level=logging.DEBUG)
+logging.debug('This message should go to the log file')
+logging.info('So should this')
+logging.warning('And this, too')
+```
+# 17 路径
+
+提供了 `app.root_path` 属性以获取应用的路径。配合 `os.path` 模块使用，轻松可达任意文件
+
+# 18 导入配置
+
+```
+app.config.from_envvar(‘FLASKR_SETTINGS’, silent=True)
+```
+
+- 设置一个名为` FLASKR_SETTINGS `的环境变量，指向要加载的配置文件。启用静默模式告诉 Flask 在没有设置该环境变量的情况下噤声。
+- 只有名称全为大写字母的变量才会被采用。
+
+# question
+
+## 1)服务器公开可见
+
+```
+app.run(host='0.0.0.0')
+```
+这会让操作系统监听所有公网 IP。
+
+
 #  调试模式
 
 有两种途径来启用调试模式。两种方法的效果完全相同。
